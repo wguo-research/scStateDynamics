@@ -16,10 +16,11 @@
 
 The `scStateDynamics` python package can be installed directly via pip:
 ```
-    pip install scStateDynamics
+pip install scStateDynamics
 ```
 
-	
+
+
 ## Tutorial
 
 - The example data used in this tutorial can be downloaded from [here](https://cloud.tsinghua.edu.cn/f/7d0fe271927a48eca3ee/?dl=1).

@@ -6,9 +6,26 @@
 ![Figure 1](https://github.com/wguo-research/scStateDynamics/assets/54011517/85609806-d2b3-4052-b199-28f375ec51b6)
 
 
+
+## System Requirements
+- Python version: >= 3.7
+
+
+
 ## Installation
 
-`pip install scStateDynamics`
+The `scStateDynamics` python package can be installed directly via pip:
+```
+    pip install scStateDynamics
+```
+
+	
+## Tutorial
+
+- The example data used in this tutorial can be downloaded from [here](https://cloud.tsinghua.edu.cn/f/7d0fe271927a48eca3ee/?dl=1).
+	
+- The step-by-step tutorials are available in the [tutorial directory](https://github.com/wguo-research/scStateDynamics/tree/main/tutorial).
 
 
 
+## Citation

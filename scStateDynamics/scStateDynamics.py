@@ -216,6 +216,7 @@ class scStateDynamics:
         self.clq_PC_data = np.array([])
         self.pair_dist = np.array([])
         self.global_dist = np.array([])
+        self.flowCostMax = None
 
         self.Align_results = []
 
@@ -492,6 +493,14 @@ class scStateDynamics:
         ax.set_title('')
         ax.set_xlabel("Average transport cost of flows")
         ax.set_ylabel("Number of flows")
+        ax.yaxis.set_major_locator(mtick.MaxNLocator(integer=True))
+
+        if self.flowCostMax is None:
+            self.flowCostMax = max(flow_info['dist']) * 1.1
+        if self.flowCostMax >= max(flow_info['dist']):
+            ax.set_xlim(0, self.flowCostMax)
+        else:
+            ax.set_xlim(0, max(flow_info['dist']) * 1.1)
 
         if isinstance(title, bool):
             if title:

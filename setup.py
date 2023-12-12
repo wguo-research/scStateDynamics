@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup( 
 	name="scStateDynamics", 
-	version="0.0.14", 
+	version="0.0.18", 
 	author="Wenbo Guo", 
 	author_email="gwb17@tsinghua.org.cn", 
     packages=find_packages(),
@@ -27,6 +27,7 @@ setup(
     	"seaborn",
     	"matplotlib",
     	"scanpy",
+    	"leidenalg",
     	"pyro-ppl",
     	"POT"] 
 ) 

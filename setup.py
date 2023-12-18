@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup( 
 	name="scStateDynamics", 
-	version="0.0.18", 
+	version="0.0.20", 
 	author="Wenbo Guo", 
 	author_email="gwb17@tsinghua.org.cn", 
     packages=find_packages(),

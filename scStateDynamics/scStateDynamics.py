@@ -1216,7 +1216,7 @@ class scStateDynamics:
 
         self.trace = poutine.trace(self.model).get_trace()
         self.trace.compute_log_prob()  # optional, but allows printing of log_prob shapes
-        print(self.trace.format_shapes())
+        # print(self.trace.format_shapes())
 
         
         pyro.clear_param_store()

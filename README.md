@@ -25,7 +25,7 @@ pip install scStateDynamics
 
 - The example data used in this tutorial can be downloaded from [here](https://cloud.tsinghua.edu.cn/f/7d0fe271927a48eca3ee/?dl=1).
 	
-- The step-by-step tutorials are available in the [tutorial directory](https://github.com/wguo-research/scStateDynamics/tree/main/tutorial).
+- The step-by-step tutorials are available in the [tutorial directory](https://github.com/wguo-research/scStateDynamics/blob/main/tutorial/scStateDynamics_tutorial.ipynb).
 
 
 

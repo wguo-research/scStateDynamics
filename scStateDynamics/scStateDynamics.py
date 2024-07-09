@@ -370,6 +370,24 @@ class scStateDynamics:
     #     pre_clq_PC_data = getCliquePC(scobj = self.data_pre, column = column)
     #     pos_clq_PC_data = getCliquePC(scobj = self.data_pos, column = column)
     #     self.clq_PC_data = np.vstack((pre_clq_PC_data, pos_clq_PC_data))
+
+
+
+    def setClqLabel(self, pre_clq_labels = None, pos_clq_labels = None):
+        '''
+        Modify the metacell (clique) labels manually.
+        
+        Parameters
+        ----------
+        pre_clq_labels: 'list'
+            A list of the metacell (clique) labels of pre-timepoint data to update. The length should be consistent with the number of cells at pre-timepoint.
+        pos_clq_labels: 'list'
+            A list of the metacell (clique) labels of post-timepoint data to update. The length should be consistent with the number of cells at post-timepoint.
+        '''
+        if pre_clq_labels is not None:
+            self.data_pre.obs['clique'] = pre_clq_labels
+        if pos_clq_labels is not None:
+            self.data_pos.obs['clique'] = pos_clq_labels
         
 
 
@@ -419,9 +437,6 @@ class scStateDynamics:
 
         self.global_dist = global_dist
         self.pair_dist = global_dist[0:self.n_clqs[0], self.n_clqs[0]:global_dist.shape[0]]
-
-        saveName = savePath + self.run_label + '_Distance-histogram.' + self.saveFigFormat
-        saveName = savePath + self.run_label + '_Distance-heatmap.' + self.saveFigFormat
 
         self.bool_Distance = True
 

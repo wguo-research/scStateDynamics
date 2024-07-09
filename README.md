@@ -3,7 +3,7 @@
 ## Introduction
 `scStateDynamics` is a computational method to thoroughly decipher the tumor cell state dynamics in response to drug treatment by modeling single-cell level expression changes.
 
-![Figure 1](https://github.com/wguo-research/scStateDynamics/assets/54011517/85609806-d2b3-4052-b199-28f375ec51b6)
+![Figure 1](https://github.com/wguo-research/scStateDynamics/assets/54011517/9e47d438-2a22-42a8-9554-de401facce3c)
 
 
 

@@ -29,4 +29,9 @@ pip install scStateDynamics
 
 
 
+## License
+MIT
+
+
 ## Citation
+

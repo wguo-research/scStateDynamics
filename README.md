@@ -34,4 +34,4 @@ MIT
 
 
 ## Citation
-Guo, W., Li, X., Wang, D. et al. scStateDynamics: deciphering the drug-responsive tumor cell state dynamics by modeling single-cell level expression changes. Genome Biol 25, 297 (2024). [https://doi.org/10.1186/s13059-024-03436-y](https://github.com/wguo-research/scStateDynamics/blob/main/tutorial/scStateDynamics_tutorial.ipynb)
+Wenbo Guo, Xinqi Li, Dongfang Wang, Nan Yan, Qifan Hu, Fan Yang, Xuegong Zhang, Jianhua Yao, Jin Gu. scStateDynamics: deciphering the drug-responsive tumor cell state dynamics by modeling single-cell level expression changes. Genome Biology 25, 297 (2024). [https://doi.org/10.1186/s13059-024-03436-y](https://doi.org/10.1186/s13059-024-03436-y)

@@ -25,7 +25,7 @@ pip install scStateDynamics
 
 - The example data used in this tutorial can be downloaded from [here](https://cloud.tsinghua.edu.cn/f/7d0fe271927a48eca3ee/?dl=1).
 	
-- The step-by-step tutorials are available in the [tutorial directory](https://github.com/wguo-research/scStateDynamics/blob/main/tutorial/scStateDynamics_tutorial.ipynb).
+- The step-by-step tutorials are available in the tutorial directory](https://github.com/wguo-research/scStateDynamics/blob/main/tutorial/scStateDynamics_tutorial.ipynb).
 
 
 
@@ -34,4 +34,4 @@ MIT
 
 
 ## Citation
-
+Guo, W., Li, X., Wang, D. et al. scStateDynamics: deciphering the drug-responsive tumor cell state dynamics by modeling single-cell level expression changes. Genome Biol 25, 297 (2024). [https://doi.org/10.1186/s13059-024-03436-y](https://github.com/wguo-research/scStateDynamics/blob/main/tutorial/scStateDynamics_tutorial.ipynb)
